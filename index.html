@@ -165,8 +165,7 @@
 	    font-size:13px;
 	    color:#404040;
 	    display:block;
-	    margin:0;padding:0;
-	    padding:5px 10px;
+	    margin:0;padding:13px;
 	    text-decoration:none;
 	    border:1px solid #999;
 	    text-align:center;
@@ -401,7 +400,7 @@ var council = {
 ]
 };
 
-var map = L.map('map', {maxZoom:15,minZoom:10, zoomControl:false}).setView([43.704339, -79.359082], 11);
+var map = L.map('map', {maxZoom:13,minZoom:11, zoomControl:false}).setView([43.704339, -79.359082], 12);
 
 var councillors = L.geoJson(council, {
         style: style,
